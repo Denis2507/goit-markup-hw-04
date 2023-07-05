@@ -374,6 +374,7 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-studio {
@@ -385,6 +386,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
+    margin-bottom: 16px;
 }
    
 .footer-text {
@@ -397,7 +399,6 @@ img {
     width: 264px;
     flex-direction: column;
     flex-shrink: 0;
-    margin-top: 16px;
 }
 
 /*----------PORTFOLIO ----------*/
