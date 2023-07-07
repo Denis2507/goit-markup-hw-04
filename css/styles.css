@@ -1,6 +1,7 @@
 :root {
     --body-color: #434455;
-    --grad-hero: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70))
+    --grad-hero: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70));
+    --custom-icon: color: #8e8f99;
 }
 
 .link {
@@ -399,6 +400,50 @@ img {
 .team-soc-soc {
     width: 16px;
     height: 16px;
+}
+
+
+.section-customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customers-text {
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--body-color);
+    margin-bottom: 72px;
+}
+
+.customers-item {
+    display: flex;
+    gap: 24px;
+}
+
+.customers-list {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
+.customers-icon {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--custom-icon);
+}
+
+.customers-icon:hover {
+    border-color: #404bbf;
+    color: #404bbf;
+}
+
+.customers-icon:focus {
+    border-color: #404bbf;
+    color: #404bbf;
 }
 
 /*----------FOOTER----------*/
