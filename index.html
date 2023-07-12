@@ -56,9 +56,11 @@
     </header>
     <main>
       <section class="hero">
-        <div class="container hero-container">
+        <div class="container hero-container" data-model>
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="btn" type="button">Order Service</button>
+          <button data-model-open class="btn" type="button">
+            Order Service
+          </button data-model-close>
         </div>
       </section>
       <section class="about">
@@ -166,12 +168,8 @@
                   </li>
                   <li class="team-soc-item">
                     <a class="team-soc-link link" href>
-                      <svg class="team-soc-soc">
-                        <use
-                          href="./images/icons.svg#icon-twitter"
-                          width="16"
-                          height="16"
-                        ></use></svg
+                      <svg class="team-soc-soc" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use></svg
                     ></a>
                   </li>
                   <li class="team-soc-item">
@@ -376,5 +374,6 @@
         </ul>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

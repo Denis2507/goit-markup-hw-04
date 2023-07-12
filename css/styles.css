@@ -121,6 +121,19 @@ img {
     color: #2E2F42;
     padding-top: 24px;
     padding-bottom: 24px;
+    position: relative;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 
 .header-link:hover {
@@ -149,6 +162,7 @@ img {
     color: var(--body-color);
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-cont:hover {
@@ -170,6 +184,7 @@ img {
     background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
 }
 
 .hero-title {
@@ -317,6 +332,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 32px 0
 }
 
 .team-list {
@@ -377,6 +393,7 @@ img {
     justify-content: center;
     gap: 24px;
     margin-top: 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-item {
@@ -392,6 +409,14 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.team-soc-link:hover {
+    background-color: #404bbf;
+}
+
+.team-soc-link:focus {
+    background-color: #404bbf;
 }
 
 .team-soc-soc {}
