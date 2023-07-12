@@ -268,10 +268,7 @@ img {
     margin-bottom: 8px;
 }
 
-.about-icons {
-    width: 64px;
-    height: 64px;
-}
+.about-icons {}
 
 .image-container {
     display: flex;
@@ -397,10 +394,7 @@ img {
     justify-content: center;
 }
 
-.team-soc-soc {
-    width: 16px;
-    height: 16px;
-}
+.team-soc-soc {}
 
 
 .section-customers {
@@ -523,10 +517,7 @@ img {
     justify-content: center;
 }
 
-.footer-soc-soc {
-    width: 16px;
-    height: 16px;
-}
+.footer-soc-soc {}
 
 /*----------PORTFOLIO ----------*/
 
