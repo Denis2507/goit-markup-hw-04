@@ -2,7 +2,8 @@
     --body-color: #434455;
     --grad-hero: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70));
     --custom-icon: color: #8e8f99;
-    --text-color: #2e2f42
+    --text-color: #2e2f42;
+    --color-white: #FFF;
 }
 
 .link {
@@ -516,11 +517,19 @@ img {
     flex-shrink: 0;
 }
 
-.footer-soc {}
+.footer-soc {
+    display: flex;
+    align-items: baseline;
+}
 
 .footer-media {
-    display: flex;
-    justify-content: center;
+    margin-right: 120px;
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 
 .footer-soc-list {
