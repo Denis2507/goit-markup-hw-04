@@ -2,6 +2,7 @@
     --body-color: #434455;
     --grad-hero: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70));
     --custom-icon: color: #8e8f99;
+    --text-color: #2e2f42
 }
 
 .link {
@@ -430,8 +431,9 @@ img {
 .customers-text {
     font-size: 36px;
     line-height: 1.11;
-    color: var(--body-color);
+    color: var(--text-color);
     margin-bottom: 72px;
+    text-align: center;
 }
 
 .customers-item {
@@ -603,14 +605,20 @@ img {
     background-color: #404BBF;
     color: #FFFFFF;
     cursor: pointer;
-    border: 1px solid transparent
+    border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .port-btn:focus {
     background-color: #404BBF;
     color: #FFFFFF;
     cursor: pointer;
-    border: 1px solid transparent
+    border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+            0px 2px 1px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .port-section {}
