@@ -473,6 +473,12 @@ img {
 
 .footer-container {
     flex-direction: column;
+    margin-right: 120px;
+}
+
+.footer-footer {
+    display: flex;
+    align-items: baseline;
 }
 
 .footer {
@@ -534,7 +540,6 @@ img {
 
 .footer-soc-list {
     display: flex;
-    justify-content: center;
     gap: 16px;
 }
 
@@ -675,6 +680,14 @@ img {
     align-items: flex-start;
     align-self: stretch;
     margin-bottom: 8px;
+}
+
+.port-text:hover {
+    transform: translateY(0%);
+}
+
+.port-text:focus {
+    transform: translateY(0%);
 }
 
 .port-text {
