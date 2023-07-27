@@ -412,7 +412,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    color:var(--fill-icon);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -424,7 +423,9 @@ img {
     background-color: #404bbf;
 }
 
-.team-soc-soc {}
+.team-soc-soc {
+    color: var(--fill-icon);
+}
 
 
 .section-customers {
@@ -782,4 +783,12 @@ img {
 
 .modal-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-icon:hover {
+    fill: #ffffff;
+}
+
+.modal-icon:focus {
+    fill: #ffffff;
 }
