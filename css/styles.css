@@ -534,10 +534,11 @@ img {
     flex-shrink: 0;
 }
 
-.footer-soc {}
+.footer-soc {
+    margin-right: 120px;
+}
 
 .footer-media {
-    margin-right: 120px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
