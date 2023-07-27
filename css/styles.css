@@ -459,12 +459,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-icon {
-    fill: var(--custom-icon);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--custom-icon);
     fill: currentColor;
 }
 
@@ -576,7 +576,7 @@ img {
 }
 
 .footer-soc-soc {
-    color:var(--fill-icon);
+    fill:var(--fill-icon);
 }
 
 /*----------PORTFOLIO ----------*/
