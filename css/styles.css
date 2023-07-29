@@ -675,6 +675,14 @@ img {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.link-link:hover .port-img-text {
+    transform: translateY(0%);
+}
+
+.link-link:focus .port-img-text {
+    transform: translateY(0%);
+}
+
 .port-section {}
 
 .port-item {}
@@ -711,14 +719,6 @@ img {
     align-items: flex-start;
     align-self: stretch;
     margin-bottom: 8px;
-}
-
-.port-title:hover {
-    transform: translateY(0%);
-}
-
-.port-title:focus {
-    transform: translateY(0%);
 }
 
 .port-text {
